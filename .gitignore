@@ -1,0 +1,32 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build files (if you have a frontend folder inside)
+frontend/build/
+
+# Coverage reports
+coverage/
+
+# Optional cache folders
+.cache/
+.next/
+
+# VSCode settings (optional)
+.vscode/
+
+# Others (optional)
+*.local
+*.zip
+*.tar.gz
