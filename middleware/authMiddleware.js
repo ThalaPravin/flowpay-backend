@@ -1,6 +1,6 @@
 import jwt from 'jsonwebtoken'
 import asyncHandler from 'express-async-handler';
-import User from '../models/User';
+import User from '../models/User.js';
 
 const protect = asyncHandler(async (req, res, next) => {
     let token;
@@ -22,3 +22,5 @@ const protect = asyncHandler(async (req, res, next) => {
         throw new Error("Not Authorized No Token Found")
     }
 })
+
+export { protect };
