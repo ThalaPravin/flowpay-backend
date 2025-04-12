@@ -8,4 +8,4 @@ const generateToken =(userId)=>{
     return jwt.sign(payload,secret, expiry);
 }
 
-export default generateToken;
+module.exports = generateToken;
